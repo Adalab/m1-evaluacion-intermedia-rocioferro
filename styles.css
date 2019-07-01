@@ -1,8 +1,7 @@
 body {
     margin: 0px; 
     font-family: 'Rubik', sans-serif;
-    text-align: center; 
-}
+    }
 
 .header {
     width: 100vw; 
@@ -40,7 +39,24 @@ img {
 }
 
 @media (min-width: 768px) {
-    
+
+    .header-logo {
+        text-align: left;  
+        align-items: center;   
+    }
+
+    img {
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+    }
+
+    .nav-ul {
+        justify-content: flex-end;
+        
+    }
+    .nav-li:last-child {
+        margin-right: 30px; 
+    }
 }
 
 
@@ -55,5 +71,14 @@ img {
     align-items: center; 
     color: #FFFFFF; 
     font-size: 20px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+@media (min-width: 768px) {
+    .main {
+        font-size: 40px; 
+        margin-top: 100px;  
+    }
 }
 
